@@ -1,0 +1,28 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>sometitle</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+  <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
+  <link rel="stylesheet" type="text/css" href="style.css"/>
+
+</head>
+
+<body>
+    <h1>the weather here</h1>
+    <div><a href="/">check in</a> | <a href="/logs">view checkins</a></div>
+
+    <p>
+        the weather here at <span id="latitude"></span>&deg;,<span id="longitude"></span>&deg; is 
+        <span id="summary"></span> with a temperature of <span id="temperature"></span>&deg; farenheit.
+        <!--The concentration of particulate matter (<span id="aq_parameter"></span>) is <span id="aq_value"></span>
+        <span id="aq_units"></span> last read on <span id="aq_date"></span>-->
+    </p>
+      
+    <script src="sketch.js"></script>
+</body>
+</html>
